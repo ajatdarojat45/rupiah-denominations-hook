@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import { ContainerStyle } from './styles'
 
-const Container = memo(props => {
+const Container = props => {
   const { children } = props
 
   return (
@@ -11,7 +11,7 @@ const Container = memo(props => {
       {children}
     </div>
   )
-})
+}
 
 Container.displayName = 'Container'
 
@@ -21,4 +21,4 @@ Container.propTypes = {
   style: PropTypes.any
 }
 
-export default Container
+export default memo(Container)

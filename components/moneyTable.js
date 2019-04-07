@@ -9,7 +9,7 @@ import Paper from '@material-ui/core/Paper'
 
 import { AmountTable, AmountTableRoot } from './styles'
 
-const SimpleTable = memo(props => {
+const SimpleTable = props => {
   let no = 1
 
   return (
@@ -54,7 +54,7 @@ const SimpleTable = memo(props => {
       }
     </div>
   )
-})
+}
 
 SimpleTable.displayName = 'SimpleTable'
 
@@ -64,4 +64,4 @@ SimpleTable.propTypes = {
   amountLeft: PropTypes.number
 }
 
-export default SimpleTable
+export default memo(SimpleTable)

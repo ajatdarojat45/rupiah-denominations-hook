@@ -11,7 +11,7 @@ import { Homepage } from './styles'
 
 import MoneyTable from 'components/moneyTable'
 
-const Index = memo(props => {
+const Index = props => {
   const [ amount, setAmount ] = useState('')
   const [ amountLeft, setAmountLeft ] = useState(null)
   const [ , setProcess ] = useState(false)
@@ -141,10 +141,10 @@ const Index = memo(props => {
       <MoneyTable data={result} amountLeft={amountLeft} />
     </div>
   )
-})
+}
 
 Index.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default Index
+export default memo(Index)
