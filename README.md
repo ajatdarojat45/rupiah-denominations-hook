@@ -18,7 +18,7 @@ Kemudian akses <http://localhost:3000> di browser.
 
 ## Demo
 
-Bisa mengakses **<https://rupiah-denominations.netlify.com>**
+Bisa mengakses **<https://rupiah-denominations-hook.netlify.com>**
 
 ## Screenshot
 
