@@ -1,7 +1,6 @@
 # Denominasi Rupiah dengan Next.js + React Hook
 
 
-[![Travis](https://travis-ci.org/maafaishal/rupiah-denominations-hook.svg?branch=master)](https://travis-ci.org/maafaishal/rupiah-denominations-hook)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/38da0df59317462084a8390ce62e8e19)](https://app.codacy.com/app/maafaishal/rupiah-denominations-hook?utm_source=github.com&utm_medium=referral&utm_content=maafaishal/rupiah-denominations-hook&utm_campaign=Badge_Grade_Dashboard)
 [![Depedencies Status](https://david-dm.org/maafaishal/rupiah-denominations-hook.svg)](https://david-dm.org/maafaishal/rupiah-denominations-hook)
 
